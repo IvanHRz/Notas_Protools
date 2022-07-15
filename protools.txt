@@ -1,0 +1,170 @@
+con tecla x haces un cut en la señal
+para la funcion fundir solo jalasi seleccionas la parte final del espectro y presionas control F sirve para ir desvaneciendo un audio de una forma en especifico
+el fundir o fade out lo encuentro en edicion 
+el fundido cruzado o crossfade lo ocupamos principal mente para pasar de un corte a otropor ejemplo cuando cortamos una parte de una pista y unimos 
+la parte restante con la primera y podemos escuchar un sonido que delata el corte hecho, entonces con un crossfade podemos aplicarlo en la union de 
+esos dos partes de la pista y pegarlos de una forma discreta inperceptible al oyente tambien se selecciona en automatico con control F 
+pro toolsse da cuenta si seleccionas y pegas parte de la pista y en atumatico sabe si trabajar con un crossfade o un fade out  o fade in   
+un archivo aaf tiene toda la informacion de audio de cada uno de los planos utilizados en el montaje (mtadata)la cual puedo traer a mi sesion
+la abro en pro tools  y viene toda la informacion generada del trabajo.
+en este caso nos van a pasar un audio ya pre establecido y nosotros lo agregaremos a nuestro programa y la manera de importarlo es por medio del .aaf
+despues de abrir el audio habra que abrir el video que seria un archivo .mov lo importamos siempre con la opcion de audio de referencia activa y empezando
+desde el principio session "start".
+en autmatico todo esta informacion se guardara en las carpetas de nuestro proyecto 
+si selecciono laorilla gris de una pista y presiono alt puedo controlar el tamaño de la pista 
+viene junto al archivo .mov que es un archi mp4   
+
+les dicen microfono de caña al palo con el microfono grande 
+ como editar los dialogos 
+primero la revision de registro del rodaje  
+luego se marca la entrada y la salida de la escena 
+creamos nuevas pistas  de trabajo ademas de las que cuenta el AAf 
+podemos compiar un audio y que permaenzca con su sincronismo apretando a tecla izquierda del mouse y control
+lo importante es que se note de manera fluida el cambio de escena  
+
+
+edicion de dialogos  
+aveces creamos pistas llamadas "foleys de directo" a lo que nos referimos es a crear una pista en donde guardaremos los foleys que nos gusten 
+de la grabacion original.
+para hacer un shortcut en los extremos del audio del lado derecho es control a y del lado izquierdo es control s  
+siempre hay que tener fundidos de entrada. siempre los fundidos evitaran el sonido de los clic s digitales que se generan cuando 
+unimos dos audios que originalemente no tenian una relacion.
+con el archivo   .ptx siempre podemos ver los datos de la sesion de doblaje.
+con el doblaje no solo podemos arreglar los desperfectos de la locacion si no que tambien podemos cambiar el perfil del personaje  
+la importancia del soido ambiente aparte de crear un envolvente es crear un universo sonoro verosimil y dar una continuidad a la escena 
+siempre que importemos un sonido ambiental es preferible importarlo a la pantalla de clips en donde podemos jalar nuestros sonidos cuando los necesitemos
+y no nos estorban en la pantalla de las pistas, lo recomendable es ordenar los archivos de la ventana clips por orden modificación  
+los sonidos siempre intervienen pero no tapan el dialogo.
+con control shift podemos bajar el nivel del audio de un audio  
+en los efectos podemos trabajar con pistas estereo y mono, en los ambientes por lo general son estereo  
+Foley es por lo general un sonido real , por ejemplo el sonido de una puerta que se cierra , el sonido de una motor , sonido humanos como , p
+asoso , tos , estornudos etc.
+
+Los efectos de sonido son : sonido de diseño donde pueden intervenir foleys pero con algún tipo de deformación o efecto , 
+lo que hace que ya no sea reconocible como sonido real
+la mezcla es donde se equilibran todos los elementos sonoros que he trabajado actualmente es el proceso final 
+debemos tener en cuenta la intensidad, el color sonoro  insertamos los plugins (procesadores de sonido) los podemosencontrar en audiosute
+cmo los microfonos capturan el sonido de forma relativa, ya que no es como lo captarian nuestros oidos en el rodaje 
+lo que tenemos que ecualizar principal mente son los dialogos. el sonido esta compuesto por muchas ondas co diferentes figuras.
+se ompone de varias frecuencias la fundamental es la más grabe  y todas las demás armonicos son mas agudas.
+la frecuencia fundamental nos da el tono o altura del sonido, lo que trabajamos en la ecualizacion es con los agudos que vendrian siendo su 
+caracteristica sonora es la materia prima para trabajar de forma creativa o correctiva    
+el ecualizador parametrico que divide el rango de frecuencias en 5 bandas, frecuencias grabes, frcuencias medias grabes , frecuencias medias
+drecuencias medias agudas y frecuencias agudas, se llaman bandas y este ecualizador se llama parametrico por que tiene 3 controles por cada banda
+uno para la frecuencia caracteristica de la banda otro para el ancho de banda con el que vamos a trabajar, cuantas frecuenciasal rededor de esa frecuencia central vamos a ocupar 
+y por ultimo la gaancia , tambien tiene dos filtro el pasa bajos y el pasa altos, el uso del ecualizador es atenuar frecuencias molestas en uestra grabacion  
+ya sea por la locacion por el microfono , cortar o potenciar una frecuencia en particular, esto se logra con entrenamiento auditivo
+las frecuencias medias siempre se escuchan mas que otras frecuencias al rededor de los 1000 hertzr,puedo recortar frecuencias grabes que no me sirven por los 70 hz
+y de agudos hasta los 11k hz ya que no los peribimos LPF (filtro paso bajos quita agudos) HPF quita grabes,y podemos jugar con la bada de medias bajas 
+y despues potenciar un poco de brillo, cuando hablamos de brillo hablamos de frecuencias agudas, cuando hablamos de peso utilizamos las medias bjas entre 100 y 200 Hz
+podemos obtener un sonido nasal si bajamos los dB a los medios    .
+con cntrol shif puedes visualizar el nivel de volumen 
+  
+
+
+
+Edición
+
+ 
+marrons instrumentes
+azules audio
+verde auxiliares y roja master 
+comandos 
+r = zoom -
+t = zoom +ttt
+split: te da la libertad de moevrte libremente por la pista y poder seleccionar o posicionarte en el 
+compas que quieras.   F2
+
+grid: te deja seeccionar y poder trabajar con compases (los que hayas determinado en grid).  F4 
+
+shuffle: hace que al eliminar un pedazo de la pista se recorra el pedazo restante y asi no dejar espaciose blanco. F1
+
+spot: nos permite que al hacer clic con la herramienta de la manita en una parte especifica de una pista poder ubicar
+en otra parte de la pista por medio de un menu de compases y asi no tener que hacerlo de manera manual  es ideal para trabajar con
+video. F3
+  
+Herramienta de ajuste:  esta herramienta es la de los corchetes que está alado de la herramienta de seleccion y la lupa
+tiene 3 opciones, y podemos acceder a cada una presionando F6. Con la primera opccion (estandar) que es la de las dos flechitas nos
+permite alargar o acortar el audio teniendo como parametro el audio original. La segunda opcion (TCE) la que tieneun relog
+como ícono nos permite estirar el audio, en este punto el audio será modificado, esto dará un efecto de incremento o decremento de velocidad 
+en el clip ya que se deforma el audio del clip. La tercera opción (bucle) que tiene como imagen una flechita de retorno, nos
+permitirá repetir el patron de nuestro audio conforme lo alarguemos.   
+   
+Herramienta de seleccion:    
+con esta herramienta podemos tener varios atajos de teclado para mover un audio seleccionado con la tecla "+" y "-" podemos
+mover una saleccion a izquierda con + y a izquierda con - presionando la tecla shif
+
+
+Herramienta de grap, (manita): 
+Esta herramienta cuenta con 3 obciones y podemos acceder con F8 podemos arrastrar clips por nuestra pista. La seguna es la manita
+con una tijera que nos permite cortar una seleccion y arrastrarla por la pista. La última opcion nos permite mover varios objetos en simultaneo 
+
+
+Herramienta del Parlante (busqueda) F9:
+podemos escuchar un audio haciendole clic, con esta herramienta y a la velocidad con la que desplazemos el cursosr sobre este audio es la velocidad
+con la que se escuchará el audio 
+
+
+Herramienta lapiz F10:
+nos servirá para modificar la señal de audio podemos redibujar la señal de onda y tambien nos sirve para editar la señal de volumen de un clip 
+nos sirve para automatizaciones. el al´piz contiene varias formas de onda en la que podemos programar alguna automatizacion de señal  
+
+¿que es un ecualizador parametrico ?
+Automatizaciones:
+automatizaciones por defecto siempre seran en una pista: 
+1.-el volumen
+2.-Silencio
+3.-paneo
+cada efecto tiene sus propias automatizaciones, por ejemplo un ecualizador tiene:
+1.-Master Bypass: esto es basicamente encender o apagar el efecto
+2.-Gain: es la ganancia del efecto
+3.-Frecuency: las repeticiones que se llevara acabo este efecto
+4.-Q = Quality factor: El factor Q es el que determinará la 'extensión' de la acción del filtro entorno a la frecuencia central, es decir, 
+       la forma más abierta o más cerrada de esa campana
+5.-Slope: la pendiente de la señal
+6.-Filter type: todos los ecualizadores tienen filtros pasa bajos o pasa altos 
+7.-input level: el nivel se señal de entrada que sera procesada por el ecualizador
+8.-Phase invert: copn esto podemos invertir la fase de entrada      
+
+
+
+
+modos de grabacion:
+-normal:tenemos la normal en la que grabaremos de manera estandar 
+-loop: en la queseleccionamos el numero de compases en los que queremos dar vueltas y se ira ensimando lo que grabemos y se iran creando clips
+ si no nos gusta lo anteriror con control + . podemos borrar lo que tengamos si no nos gusto y no se creara ningun clip
+-destructivo: aqui podemos grabar algo y ensima de eso poder seguir grabando hasta que nos gustey se creara al final un solo clip    
+-quickpunch: si una toma tiene un error en un compas podemos seleccionar ese compas y sustituir su contenido con algo nuevo 
+-pre/post roll:nos sirve para regrabar en partes especificas de una pista, por ejemplo cuando esta mos grabando solos es un poco incomodo grabar con 
+el quickpunch ycon esto podemos programar el compas en el que queemos regrabar y y hacerlo de una forma ma´s sencilla
+en pre-roll ponemos el compas en donde queremos iniciar y en post-rolls cuantos compases queremos que dure  luego selesccionamos
+los compases que queremos editar y le damos con la tecla 3 yempezamos    
+ 
+
+
+
+comandos de edicion rapida:
+
+delete = seleccionamos algo y con la tecla delete lo borramos
+n = abilitamos una opcion que permita al cursor deternerse en el lugar en donde se encuentra independientemente si se encuentra
+    al principio de un compas o en medio 
+shif + / = nos permite reproducir un audio y al mismo tiempo mantener una seleccion previa en algun clip 
+c = copio algo previamente seleccionado 
+v = pego algo previamente cortado o copiado
+b = cortar algo previamente seleccionado
+a = cuando posicionamos el marcador en un lugar en especifico de la pista todo lo que esté del lado izquierdo se borrará
+s = cuando posicionamos el marcador en un lugar en especifico de la pista todo lo que esté del lado derecho se borrará 
+d = fate-in son fundidos de audio que van al principio del audio y van de menos a más en el volumen del clip
+g = fate-out son fundidos de audio que van al final del audio y van de más a menos en el volumen del clip
+   
+Podemos editar un fate-in y un fate-out posicionandolo donde lo queremos y ddespues con la herramiente mano le damos doble clic
+y nos abrirá un menu en donde podremos editarlo a nuestro gusto o despues de crearlo presionar windows + F ó mac + F 
+
+
+
+
+importar video AAF:
+vamos a archivo-importar-datos de sesion-escoger archivo-elegir opcion "copiar de media fuente" en configuraciones de media de audio igual en video
+-importarefectos de audio (parte de hasta abajo de la ventana)-aceptamos-le asignamos una carpeta y es todo.
+
+si el video no funciona lo borramos y lo volvemos a subir desde el archivo.mov
