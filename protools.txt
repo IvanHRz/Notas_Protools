@@ -77,7 +77,7 @@ compas que quieras.   F2
 
 grid: te deja seeccionar y poder trabajar con compases (los que hayas determinado en grid).  F4 
 
-shuffle: hace que al eliminar un pedazo de la pista se recorra el pedazo restante y asi no dejar espaciose blanco. F1
+shuffle: hace que al eliminar un pedazo de la pista se recorra el pedazo restante y asi no dejar espacios en blanco. F1
 
 spot: nos permite que al hacer clic con la herramienta de la manita en una parte especifica de una pista poder ubicar
 en otra parte de la pista por medio de un menu de compases y asi no tener que hacerlo de manera manual  es ideal para trabajar con
@@ -90,12 +90,12 @@ como ícono nos permite estirar el audio, en este punto el audio será modificad
 en el clip ya que se deforma el audio del clip. La tercera opción (bucle) que tiene como imagen una flechita de retorno, nos
 permitirá repetir el patron de nuestro audio conforme lo alarguemos.   
    
-Herramienta de seleccion:    
+Herramienta de seleccionF7:    
 con esta herramienta podemos tener varios atajos de teclado para mover un audio seleccionado con la tecla "+" y "-" podemos
 mover una saleccion a izquierda con + y a izquierda con - presionando la tecla shif
 
 
-Herramienta de grap, (manita): 
+Herramienta de grap, (manita)f8: 
 Esta herramienta cuenta con 3 obciones y podemos acceder con F8 podemos arrastrar clips por nuestra pista. La seguna es la manita
 con una tijera que nos permite cortar una seleccion y arrastrarla por la pista. La última opcion nos permite mover varios objetos en simultaneo 
 
@@ -131,11 +131,11 @@ cada efecto tiene sus propias automatizaciones, por ejemplo un ecualizador tiene
 
 modos de grabacion:
 -normal:tenemos la normal en la que grabaremos de manera estandar 
--loop: en la queseleccionamos el numero de compases en los que queremos dar vueltas y se ira ensimando lo que grabemos y se iran creando clips
+-loop: en la que seleccionamos el numero de compases en los que queremos dar vueltas y se ira ensimando lo que grabemos y se iran creando clips
  si no nos gusta lo anteriror con control + . podemos borrar lo que tengamos si no nos gusto y no se creara ningun clip
 -destructivo: aqui podemos grabar algo y ensima de eso poder seguir grabando hasta que nos gustey se creara al final un solo clip    
 -quickpunch: si una toma tiene un error en un compas podemos seleccionar ese compas y sustituir su contenido con algo nuevo 
--pre/post roll:nos sirve para regrabar en partes especificas de una pista, por ejemplo cuando esta mos grabando solos es un poco incomodo grabar con 
+-pre/post roll:nos sirve para regrabar en partes especificas de una pista, por ejemplo cuando estamos grabando solos es un poco incomodo grabar con 
 el quickpunch ycon esto podemos programar el compas en el que queemos regrabar y y hacerlo de una forma ma´s sencilla
 en pre-roll ponemos el compas en donde queremos iniciar y en post-rolls cuantos compases queremos que dure  luego selesccionamos
 los compases que queremos editar y le damos con la tecla 3 yempezamos    
@@ -168,3 +168,53 @@ vamos a archivo-importar-datos de sesion-escoger archivo-elegir opcion "copiar d
 -importarefectos de audio (parte de hasta abajo de la ventana)-aceptamos-le asignamos una carpeta y es todo.
 
 si el video no funciona lo borramos y lo volvemos a subir desde el archivo.mov
+
+
+control + 1 abre el reproductor+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+Yo adivino el parpadeo de las luces que a lo lejos van marcando mi retorno
+
+
+-------------------------------------Banda sonora------------------------------------------
+1.-La palabra (Dialogo):Completa ala accion añadiendo más a la imagen 
+                        y preparando la accion futura para su mejor comprencion 
+                        dibuja psicologicamente a los personajes, explica lo que
+                        no se puede ver y no debe ser redundante, explicando lo
+                        la imagen por si sola ya está explicando, sugiere pero
+                        no da toda la informacion.
+
+2.-Ambientes y efectos: Subrayan la acción y evocan imágenes, poseen un valor expresivo que 
+                        se añade al de la palabra, en ocaciones sirven para realizar transiciones
+                        imposibles de recrear visualmente. Los efectos se pueden separar en:
+                        Contextuales: Reproducciones sonoras estrictamente físicas.
+                        Narrativo:Reproducciones sonoras de tipo psicológico. 
+                                          
+3.-Efectos de sala (Foleys):Consiste en recrear en sincronizmo con la imagen todos los sonidos ambientales,
+                            cotidianos y ruidos propios de personas, animales y objetos, pasos objetos en superficies
+                            movimiento y todo lo que debe sonar en un ambiente imposible de captar en una escena por
+                            ruido de ambiente y cosas asi, etc.   
+4.-Musica:Ayuda al espectador a identificarse con la trama, suministra informacion, crea estados de animo y ayuda
+          con la trancision de escenas. Muchas veces reemplaza los efectos sonoros, como en la película gravity. 
+
+5.-Silencio:Forma parte de la banda sonora como pausa obligada entre diálogos, ruidos y música. Condiciona
+            situaciones de angustia con una gran eficiencia dramática.
+
+
+
+
+-----------------------------------Creacion de nuestra sesion----------------------------
+48kHz como frecuencia de muestreo
+24 bits profundidad de bits es el estandar en video 
+.wav
+
+al grabar se ocupar un menor buffer (128) y al mezclar se ocupa el maximo posible 
+---------------------------------------------------------------------------------------------
+
+
+ 
